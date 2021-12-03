@@ -55,14 +55,14 @@ const Music = () => {
           type="text"
           className="py-1 px-2 shadow rounded outline-none focus:ring-2 ring-green-400"
         />
-        <button
+        {/* <button
           disabled={search === ""}
           onClick={handleSubmit}
           className="flex items-center gap-2 bg-green-500 text-white py-1 px-2 rounded shadow focus:ring-2 ring-green-400 disabled:bg-green-200"
         >
           <FaSearch />
           <span>Buscar</span>
-        </button>
+        </button> */}
       </div>
       <ArtistList />
     </div>
